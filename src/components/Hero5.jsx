@@ -4,21 +4,21 @@ import Cards from "./cards";
 function Hero5() {
   const initialData = [
     {
-      img: "/public/image.png",
+      img: "/image.png",
       title: "Movies App",
       data: "I'm using React.js, it's my best project using APIs, backend with Node.js and Express",
       live: "https://movies.godcrafts.fun",
       code: "https://github.com/kenilGamer/Movies-app",
     },
     {
-      img: "/public/image1.png",
+      img: "image1.png",
       title: "Godcrafts",
       data: "I'm using React.js, hosting website with the best hosting service, backend with Node.js and Express",
       live: "https://godhost-iota.vercel.app",
       code: "https://github.com/kenilGamer/GODHOST",
     },
     {
-      img: "/public/image3.png",
+      img: "/image3.png",
       title: "Movies App",
       data: "I'm using React.js, it's my best project using APIs, backend with Node.js and Express",
       live: "https://kenilgamer.github.io/3D-Parallax-Website/",

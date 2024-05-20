@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.shadow1{
+  box-shadow: 0px 0px 200px #132C5A;
+  background: #112955;
+  filter: blur(20px);
+}
+.img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  object-position: center;
+  background-size: cover;
+}

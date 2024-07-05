@@ -4,12 +4,17 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.1",
+    "@nextui-org/card": "^2.0.31",
+    "@nextui-org/react": "^2.4.2",
+    "gsap": "^3.12.5",
+    "locomotive-scroll": "^5.0.0-beta.13",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.2.1"

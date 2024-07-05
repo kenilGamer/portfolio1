@@ -1,23 +1,27 @@
 import React from 'react'
-import Navbar from './components/navbar'
-import Hero1 from './components/Hero1'
-import Hero2 from './components/Hero2'
-import Hero3 from './components/Hero3'
-import Hero5 from './components/Hero5'
-import Footr from './components/footr'
-
+import Home from './pages/Home'
+import LocomotiveScroll from "locomotive-scroll";
 function App() {
+  const locomotiveScroll = new LocomotiveScroll({
+    lenisOptions: {
+      autoResize: true,
+      smoothScrolling: true,
+      wrapper: window,
+      content: document.documentElement,
+      lerp: 0.1,
+      duration: 4.5,
+      orientation: "vertical",
+      gestureOrientation: "vertical",
+      smoothWheel: true,
+      smoothTouch: true,
+      wheelMultiplier: 1,
+      touchMultiplier: 2,
+      normalizeWheel: true,
+      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+    },
+  });
   return (
-    <div className='bg-[#04162E] relative text-white w-screen h-screen overflow-x-hidden'>
-          <div className="shadow1 -z-0 w-96 h-96 -top-20 -left-10 rounded-full  absolute"></div>
-          <div className="shadow1 -z-0 w-[70vh] h-[70vh] top-52 -right-8 rounded-full  absolute"></div>
-      <Navbar/>
-      <Hero1/>
-      <Hero2/>
-      <Hero3/>
-      <Hero5/>
-      <Footr/>
-    </div>
+   <Home/>
   )
 }
 

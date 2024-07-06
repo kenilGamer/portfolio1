@@ -9,7 +9,7 @@ import Footr from '../components/footr';
 function Home() {
 
   return (
-    <div className='bg-[#04162E] text-white w-full select-none  overflow-x-hidden'>
+    <div className='bg-[#04162E] text-white w-full select-none  overflow-x-hidden font1'>
       <Hero1 />
       <Hero2 />
       <Hero3 />

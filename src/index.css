@@ -19,7 +19,16 @@
   object-position: center;
   background-size: cover;
 }
-
+@font-face {
+  font-family: font1;
+  src: url(/public/LeagueSpartan-Bold.ttf);
+}
+.font1{
+  font-family: monospace;
+}
+::-webkit-scrollbar{
+  display: none;
+}
 .card {
   width: 300px;
   border-radius: 20px;

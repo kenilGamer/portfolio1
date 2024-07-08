@@ -29,10 +29,10 @@ function Hero2() {
       duration: 1,
       opacity:0,
       y:500
-    })
+    },'a')
     tl.from(".img1a",{
       duration: 1,
-      x: -100
+      x: -500
     },'a')
     tl.from(".text-2a",{
       duration: 1,

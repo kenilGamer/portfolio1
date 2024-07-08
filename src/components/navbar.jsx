@@ -42,7 +42,7 @@ function Navbar() {
       </div>
     </div>
   ) : (
-    <div className="w-full absolute z-[9999] ">
+    <div className="w-full relative z-[9999] ">
       <Slider on={sd} sendDataToParent={handleDataFromChild} />
       <div className=" w-full h-[10vw] flex items-center  justify-between px-2">
         <div className=" relative h-full nav-l  w-[30vw]">
@@ -52,7 +52,7 @@ function Navbar() {
           <div className=" relative h-full  w-[10vw] ">
 
           </div>
-          <div className=" relative h-full  w-[10vw] nav-r">
+          <div className=" relative h-full  w-[2  0vw] nav-r">
 
             <h1 onClick={() => setSd(true)} className=" absolute top-1/2 left-1/2 -translate-x-1/2  -translate-y-1/2 w-full h-full object-fill fill-white scale-50"
             >   <HiOutlineMenuAlt4 className="w-full h-full fill-white " /></h1>

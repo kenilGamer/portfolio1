@@ -1,6 +1,7 @@
 import React from 'react'
 import Home from './pages/Home'
 import LocomotiveScroll from "locomotive-scroll";
+import Canvas from './components/canvas';
 function App() {
   const locomotiveScroll = new LocomotiveScroll({
     lenisOptions: {
@@ -21,7 +22,10 @@ function App() {
     },
   });
   return (
-   <Home/>
+   <div className='w-full h-screen' style={{ position: 'relative' }}>
+     <Canvas />
+     <Home  />
+   </div>
   )
 }
 

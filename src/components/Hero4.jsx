@@ -9,7 +9,7 @@ function Hero4() {
       img: "/image.png",
       title: "Movies App",
       data: "I'm using React.js, it's my best project using APIs",
-      live: "https://movies.godcrafts.fun",
+      live: "https://movies.godcraft.fun",
       code: "https://github.com/kenilGamer/Movies-app",
     },
     {
@@ -36,7 +36,6 @@ function Hero4() {
         start: "top 0%",
         end: "top -100%",
         toggleActions: "restart pause resume pause",
-      
         scrub: 4,
         pin: true,
       }
@@ -52,8 +51,6 @@ function Hero4() {
   return (
     <div className="w-full h-full p-10 max-md:px-6 max-md:mt-10 page4 flex flex-col items-center justify-center">
       <h1 className="text-5xl font-bold text-center">My Project</h1>
-      <Cards data={data} />
-     {/* <Cards/> */}
     </div>
   );
 }

@@ -52,7 +52,7 @@ function Navbar() {
           <div className=" relative h-full  w-[10vw] ">
 
           </div>
-          <div className=" relative h-full  w-[2  0vw] nav-r">
+          <div className=" relative h-full  w-[20vw] nav-r">
 
             <h1 onClick={() => setSd(true)} className=" absolute top-1/2 left-1/2 -translate-x-1/2  -translate-y-1/2 w-full h-full object-fill fill-white scale-50"
             >   <HiOutlineMenuAlt4 className="w-full h-full fill-white " /></h1>

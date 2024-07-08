@@ -51,6 +51,7 @@ function Hero4() {
   return (
     <div className="w-full h-full p-10 max-md:px-6 max-md:mt-10 page4 flex flex-col items-center justify-center">
       <h1 className="text-5xl font-bold text-center">My Project</h1>
+      <Cards data={data} />
     </div>
   );
 }

@@ -9,7 +9,7 @@ function App() {
       wrapper: window,
       content: document.documentElement,
       lerp: 0.02,
-      duration: 4.5,
+      duration: 1.5,
       orientation: "vertical",
       gestureOrientation: "vertical",
       smoothWheel: true,

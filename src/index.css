@@ -220,3 +220,20 @@
 .btn:active {
  transform: scale(0.9);
 }
+.text-animation-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 2em;
+  text-align: center;
+}
+
+.char {
+  display: inline-block;
+}
+
+.page2-container .animated-text {
+  display: inline-block;
+}

@@ -52,7 +52,7 @@ function Hero1() {
       </div>
       <div className="hero-r flex items-center justify-center w-1/2 h-full max-md:w-[70vw] ">
         <div className="w-[70vh] rounded-full box-1 h-[70vh] max-md:h-[35vh] bg-sky-800 flex items-center justify-center">
-        <img src="/public/Default_bg_remove_0_7e86b0ea-754c-4f86-bba0-d1426d0283df_0.png" className="object-cover w-full imgs1 " alt="" />
+        <img src="/Default_bg_remove_0_7e86b0ea-754c-4f86-bba0-d1426d0283df_0.png" className="object-cover w-full imgs1 " alt="" />
           
         </div>
       </div>

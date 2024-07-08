@@ -28,7 +28,7 @@ function Navbar() {
   };
 
   return isMobile == false ? (
-    <div className="w-full h-[10.3vh] flex items-center justify-between  overflow-hidden py-4 px-10">
+    <div className="w-full h-[12.3vh] flex items-center justify-between  overflow-hidden py-10 px-10">
       <div className="nav-l">
         <h1 className="text-[3.5vw] ">Portfolio</h1>
       </div>

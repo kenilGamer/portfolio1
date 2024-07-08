@@ -47,7 +47,7 @@ function Hero2() {
         <div className="flex items-center  max-md:flex-col max-md:w-full justify-center  max-md:mt-20 h-full">
         <div className="hero-l-1 w-2/4 h-[80vh] relative flexitems-center max-md:hidden overflow-hidden  justify-center ">
           <img
-            src="/public/3d-portrait-high-school-teenager.png"
+            src="/3d-portrait-high-school-teenager.png"
             className="h-full absolute imgs2 left-1/4"
             alt=""
           />

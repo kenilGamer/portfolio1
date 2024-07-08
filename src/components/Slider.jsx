@@ -32,10 +32,11 @@ function Slider(on) {
   
           <h1 onClick={() => on.sendDataToParent(false)} className=" absolute top-[70%] left-[48%] text-6xl fill-white ">x</h1>
        
-      <div className="w-full  flex flex-col gap-9 py-28 px-10 h-full bg-sky-600 ">
-        {["shop", "all products","daily steals", "more"].map((e, i) => (
-        //   <Nav_box key={i} color="white" width={207} text={e} />
-        <div className="flex items-center justify-center frot1 text-4xl mt-5  tracking-widest font-extralight" key={i}>{e}</div>
+      <div className="w-full  flex flex-col gap-9 py-28 px-10 h-full bg-[#122549] ">
+      {["About us", "Experience", "Projects", "Contact"].map((i, k) => (
+          <div key={k} className=" nav-r hover:animate-pulse flex items-center justify-center text-3xl">
+            <a href={`#${i}`}>{i}</a>
+          </div>
         ))}
       </div>
     </div>

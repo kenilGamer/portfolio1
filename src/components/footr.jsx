@@ -14,13 +14,13 @@ function Footr() {
                 <h1 className='text-6xl md:text-8xl font-semibold'>Contact</h1>
                 <p className='md:text-2xl font-medium'>Feel free to reach out!</p>
             </div>
-            <div className="footr-lr w-1/2 flex flex-col justify-center items-start gap-6">
+            <div className="footr-r w-1/2 max-md:w-full flex flex-col justify-center items-center gap-6">
                 <a className='text-xl flex items-center gap-3' href="mailto: kenilk677@email.com"><IoMdMail/> kenilk677@gmail.com</a>
                 <a className='text-xl flex items-center gap-3' href="https://www.linkedin.com/in/kenil-gamer-3b927227a/"><LiaLinkedinIn/> linkedin.com/kenilgamer</a>
                 <a className='text-xl flex items-center gap-3' href="https://github.com/kenilgamer"><IoLogoGithub/> github.com/kenilgamer</a>
             </div>
-        </div>
         <h1 className='text-xl text-center font-semibold'>copyright {dateYear} Godcrafts</h1>
+        </div>
     </div>
   )
 }

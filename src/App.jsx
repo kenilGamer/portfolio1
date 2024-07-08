@@ -8,7 +8,7 @@ function App() {
       smoothScrolling: true,
       wrapper: window,
       content: document.documentElement,
-      lerp: 0.1,
+      lerp: 0.02,
       duration: 4.5,
       orientation: "vertical",
       gestureOrientation: "vertical",

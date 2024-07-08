@@ -14,8 +14,8 @@ function Hero2() {
           />
         </div>
         <div className="hero-r w-1/2 flex flex-col max-md:w-full  items-center justify-around">
-          <div className="w-full md:  py-2 flex max-md:flex-col">
-            <img src="/image 2.png" alt="" />
+          <div className="w-full md:  py-2 flex max-md:items-center max-md:flex-col">
+            <img className="max-md:w-52" src="/image 2.png" alt="" />
             <div>
               <h1 className="text-lg font-semibold max-md:text-center">Frontend Developer</h1>
               <p className="max-md:text-center md:w-72">
@@ -24,8 +24,8 @@ function Hero2() {
               </p>
             </div>
           </div>
-          <div className="w-full py-2 flex  max-md:flex-col">
-            <img src="/image 3.png" alt="" />
+          <div className="w-full py-2 flex max-md:items-center max-md:flex-col">
+            <img className="max-md:w-52" src="/image 3.png" alt="" />
             <div>
               <h1 className="text-lg font-semibold max-md:text-center">Backend Developer</h1>
               <p className="max-md:text-center md:w-72">
@@ -33,8 +33,8 @@ function Hero2() {
               </p>
             </div>
           </div>
-          <div className="w-full py-2 flex max-md:flex-col ">
-            <img src="/image 4.png" alt="" />
+          <div className="w-full py-2 flex max-md:items-center max-md:flex-col ">
+            <img className="max-md:w-52" src="/image 4.png" alt="" />
             <div>
               <h1 className="text-lg font-semibold max-md:text-center">UI Designer</h1>
               <p className="max-md:text-center md:w-72">

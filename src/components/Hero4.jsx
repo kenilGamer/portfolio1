@@ -36,8 +36,8 @@ function Hero4() {
         start: "top 0%",
         end: "top -100%",
         toggleActions: "restart pause resume pause",
-        markers: true,
-        scrub: 2,
+      
+        scrub: 4,
         pin: true,
       }
     })
@@ -45,8 +45,7 @@ function Hero4() {
     //  y: "-100%",
      opacity: 0,
      duration: 1,
-     ease: "power2.inOut",
-     stagger: 0.1,
+     stagger: 0.3,
 
    })
   })

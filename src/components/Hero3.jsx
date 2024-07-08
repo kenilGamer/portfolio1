@@ -10,8 +10,8 @@ function Hero3() {
         start: "top 0%",
         end: "top -100%",
         toggleActions: "restart pause resume pause",
-        markers: true,
-        scrub: 2,
+       
+        scrub: 4,
         pin: true,
       }
     })

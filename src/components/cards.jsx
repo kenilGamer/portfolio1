@@ -18,17 +18,17 @@ function Cards({ data }) {
             <div className="row row1 max-sm:flex-col">
               <div className="item">
                 <span className="big-text">Created Date</span>
-                <span className="regular-text text-nowrap">27/3/2024 to 10/4/2024</span>
+                <span className="regular-text ">27/3/2024 10/4/2024</span>
               </div>
               <div className="item">
                 <a href={item.code}>
-                  <span className="big-text">Source Code</span>
+                  <span className="big-text text-nowrap">Source Code</span>
                   <span className="regular-text">Free for use</span>
                 </a>
               </div>
               <div className="item">
                 <a href={item.live}>
-                  <span className="big-text">Live Website</span>
+                  <span className="big-text text-nowrap">Live Website</span>
                   <span className="regular-text">Visit now</span>
                 </a>
               </div>

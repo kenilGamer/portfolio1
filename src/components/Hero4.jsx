@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import Cards from "./cards";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 
-function Hero5() {
+function Hero4() {
   const initialData = [
     {
       img: "/image.png",
@@ -27,9 +29,29 @@ function Hero5() {
   ];
 
   const [data, setData] = useState(initialData);
+  useGSAP(() => {
+    const tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: ".page4",
+        start: "top 0%",
+        end: "top -100%",
+        toggleActions: "restart pause resume pause",
+        markers: true,
+        scrub: 2,
+        pin: true,
+      }
+    })
+   tl.from(".card",{
+    //  y: "-100%",
+     opacity: 0,
+     duration: 1,
+     ease: "power2.inOut",
+     stagger: 0.1,
 
+   })
+  })
   return (
-    <div className="w-full h-full p-20 max-md:px-6 flex flex-col items-center justify-center">
+    <div className="w-full h-full p-10 max-md:px-6 max-md:mt-10 page4 flex flex-col items-center justify-center">
       <h1 className="text-5xl font-bold text-center">My Project</h1>
       <Cards data={data} />
      {/* <Cards/> */}
@@ -37,4 +59,4 @@ function Hero5() {
   );
 }
 
-export default Hero5;
+export default Hero4;

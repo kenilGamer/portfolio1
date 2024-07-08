@@ -19,8 +19,8 @@ function Footr() {
                 <a className='text-xl flex items-center gap-3' href="https://www.linkedin.com/in/kenil-gamer-3b927227a/"><LiaLinkedinIn/> linkedin.com/kenilgamer</a>
                 <a className='text-xl flex items-center gap-3' href="https://github.com/kenilgamer"><IoLogoGithub/> github.com/kenilgamer</a>
             </div>
-        <h1 className='text-xl text-center font-semibold'>copyright {dateYear} Godcrafts</h1>
         </div>
+        <h1 className='text-xl text-center font-semibold'>copyright {dateYear} Godcrafts</h1>
     </div>
   )
 }

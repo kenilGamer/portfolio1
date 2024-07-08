@@ -49,13 +49,11 @@ function Navbar() {
           <h1 className="flex items-center justify-center h-full ">Portfolio</h1>
         </div>
         <div className="h-full flex gap-4">
-          <div className=" relative h-full  w-[10vw] ">
+          
+          <div  onClick={() => setSd(true)} className=" relative h-full  w-full nav-r">
 
-          </div>
-          <div className=" relative h-full  w-[20vw] nav-r">
-
-            <h1 onClick={() => setSd(true)} className=" absolute top-1/2 left-1/2 -translate-x-1/2  -translate-y-1/2 w-full h-full object-fill fill-white scale-50"
-            >   <HiOutlineMenuAlt4 className="w-full h-full fill-white " /></h1>
+            <h1  className=" scale-50"
+            >   <HiOutlineMenuAlt4   className="w-full h-full fill-white text-4xl " /></h1>
           </div>
         </div>
       </div>
